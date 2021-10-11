@@ -1,6 +1,7 @@
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
-import Bool from "./components/LearningOptions/Bool";
+import WebDevOptionsOne from "./components/LearningOptions/webDevOptionsOne";
+import MobileDevOptionsOne from "./components/LearningOptions/mobileDevOptionsOne";
 
 import LearningOptions from "./components/LearningOptions/LearningOptions";
 import LinkList from "./components/LinkList/LinkList";
@@ -29,8 +30,12 @@ const config = {
       widgetFunc: (props) => <LearningOptions {...props} />,
     },
     {
-      widgetName: "Bool",
-      widgetFunc: (props) => <Bool {...props} />,
+      widgetName: "WebDevOptionsOne",
+      widgetFunc: (props) => <WebDevOptionsOne {...props} />,
+    },
+    {
+      widgetName: "MobileDevOptionsOne",
+      widgetFunc: (props) => <MobileDevOptionsOne {...props} />,
     },
     {
       widgetName: "javascriptLinks",

@@ -15,7 +15,29 @@ class ActionProvider {
       "Fantastic! There are 10 companies that needs an employee like you now, but they require these skills: Python, C++, Java, JavaScript, MySQL. Do you have all these skills?",
       {
         widget: "Bool",
-      },
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
+  webDevOptionsOne = () => {
+    const message = this.createChatBotMessage(
+      "Choose one of the following skills...",
+      {
+        widget: "WebDevOptionsOne",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
+  mobileDevOptionsOne = () => {
+    const message = this.createChatBotMessage(
+      "Choose one of the following skills...",
+      {
+        widget: "MobileDevOptionsOne",
+      }
     );
 
     this.updateChatbotState(message);
@@ -23,7 +45,7 @@ class ActionProvider {
 
   handleBoolYes = () => {
     const message = this.createChatBotMessage(
-      "Great! Follow this link to reach these companies: www.example.com",
+      "Great! Follow this link to reach these companies: www.example.com"
       // {
       //   widget: "Bool",
       // },
@@ -31,10 +53,10 @@ class ActionProvider {
 
     this.updateChatbotState(message);
   };
-  
+
   handleBoolNo = () => {
     const message = this.createChatBotMessage(
-      "I'm Sorry. Please take sometime, get familiar with all these skills and come back when you're done. Thank You.",
+      "I'm Sorry. Please take sometime, get familiar with all these skills and come back when you're done. Thank You."
       // {
       //   widget: "Bool",
       // },

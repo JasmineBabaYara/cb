@@ -69,3 +69,7 @@
 .react-chatbot-kit-chat-message-container  {
   height: auto;
 }
+
+.react-chatbot-kit-chat-header {
+  padding-top: 10%;
+}

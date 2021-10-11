@@ -2,15 +2,15 @@ import React from "react";
 
 import "./LearningOptions.css";
 
-const Bool = (props) => {
+const MobileDevOptionsOne = (props) => {
   const options = [
     {
-      text: "Yes",
+      text: "Cross Platform",
       handler: props.actionProvider.handleBoolYes,
       id: 1,
     },
     {
-      text: "No",
+      text: "Native",
       handler: props.actionProvider.handleBoolNo,
       id: 2,
     },
@@ -27,4 +27,4 @@ const Bool = (props) => {
   return <div className="learning-options-container">{optionsMarkup}</div>;
 };
 
-export default Bool;
+export default MobileDevOptionsOne;
