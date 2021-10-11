@@ -9,7 +9,7 @@ const LearningOptions = (props) => {
       handler: props.actionProvider.webDevOptionsOne,
       id: 1,
     },
-    { text: "Mobile Developer", handler: props.actionProvider.mobileDevOptionsOne , id: 2 },
+    { text: "Mobile Developer", handler: props.actionProvider.Platform , id: 2 },
     { text: "Game Developer", handler: props.actionProvider.handleJavascriptList , id: 3 },
   ];
   

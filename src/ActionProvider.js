@@ -32,11 +32,66 @@ class ActionProvider {
     this.updateChatbotState(message);
   };
 
-  mobileDevOptionsOne = () => {
+  Platform = () => {
     const message = this.createChatBotMessage(
-      "Choose one of the following skills...",
+      "Choose preferred platform.",
       {
-        widget: "MobileDevOptionsOne",
+        widget: "Platform",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
+  Framework = () => {
+    const message = this.createChatBotMessage(
+      "Choose your preferred option.",
+      {
+        widget: "Framework",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
+  Experience = () => {
+    const message = this.createChatBotMessage(
+      "How many Years of Experience do you have?",
+      {
+        widget: "Experience",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
+  TestQuestion1 = () => {
+    const message = this.createChatBotMessage(
+      "On a scale of 1-5, how do you grade your problem solving ability & creativity?",
+      {
+        widget: "TestQuestion1",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
+  TestQuestion2 = () => {
+    const message = this.createChatBotMessage(
+      "How about your communication skill & teamwork?",
+      {
+        widget: "TestQuestion2",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
+  Location = () => {
+    const message = this.createChatBotMessage(
+      "What's your preferred location?",
+      {
+        widget: "Location",
       }
     );
 

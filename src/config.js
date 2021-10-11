@@ -1,7 +1,7 @@
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 import WebDevOptionsOne from "./components/LearningOptions/webDevOptionsOne";
-import MobileDevOptionsOne from "./components/LearningOptions/mobileDevOptionsOne";
+import {Platform, Framework, Experience, TestQuestion1, TestQuestion2, Location } from "./components/LearningOptions/mobileDevOptions";
 
 import LearningOptions from "./components/LearningOptions/LearningOptions";
 import LinkList from "./components/LinkList/LinkList";
@@ -34,8 +34,28 @@ const config = {
       widgetFunc: (props) => <WebDevOptionsOne {...props} />,
     },
     {
-      widgetName: "MobileDevOptionsOne",
-      widgetFunc: (props) => <MobileDevOptionsOne {...props} />,
+      widgetName: "Platform",
+      widgetFunc: (props) => <Platform {...props} />,
+    },
+    {
+      widgetName: "Framework",
+      widgetFunc: (props) => <Framework {...props} />,
+    },
+    {
+      widgetName: "Experience",
+      widgetFunc: (props) => <Experience {...props} />,
+    },
+    {
+      widgetName: "TestQuestion1",
+      widgetFunc: (props) => <TestQuestion1 {...props} />,
+    },
+    {
+      widgetName: "TestQuestion2",
+      widgetFunc: (props) => <TestQuestion2 {...props} />,
+    },
+    {
+      widgetName: "Location",
+      widgetFunc: (props) => <Location {...props} />,
     },
     {
       widgetName: "javascriptLinks",
