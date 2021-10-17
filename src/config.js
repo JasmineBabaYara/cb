@@ -5,7 +5,9 @@ import {Platform, Framework, Experience, TestQuestion1, TestQuestion2, Location 
 
 import LearningOptions from "./components/LearningOptions/LearningOptions";
 import LinkList from "./components/LinkList/LinkList";
-
+import { DevelopmentPlatform, MobilePlatform, Certification, Android, IOS, AndroidGameEngineTools, CrossPlatformMobile, MindSkillTest, ExperienceInGameDev } from "./components/LearningOptions/gameDevOptions";
+import { Desktop, MicrosoftWindowsGameEngineOptions, MacOS, Console,  ReturnStep } from "./components/LearningOptions/gameDevOptions2";
+ 
 const config = {
   botName: "AI",
   initialMessages: [
@@ -46,8 +48,16 @@ const config = {
       widgetFunc: (props) => <Experience {...props} />,
     },
     {
+      widgetName: "ExperienceInGameDev",
+      widgetFunc: (props) => <ExperienceInGameDev {...props} />,
+    },
+    {
       widgetName: "TestQuestion1",
       widgetFunc: (props) => <TestQuestion1 {...props} />,
+    },
+    {
+      widgetName: "MindSkillTest",
+      widgetFunc: (props) => <MindSkillTest {...props} />,
     },
     {
       widgetName: "TestQuestion2",
@@ -56,6 +66,54 @@ const config = {
     {
       widgetName: "Location",
       widgetFunc: (props) => <Location {...props} />,
+    },
+    {
+      widgetName: "DevelopmentPlatform",
+      widgetFunc: (props) => <DevelopmentPlatform {...props} />
+    },
+    {
+      widgetName: "MobilePlatform",
+      widgetFunc: (props) => <MobilePlatform {...props} />
+    },
+    {
+      widgetName: "DesktopOption",
+      widgetFunc: (props) => <Desktop {...props} />,
+    },
+    {
+      widgetName: "Console",
+      widgetFunc: (props) => <Console {...props} />,
+    },
+    {
+      widgetName: "Certification",
+      widgetFunc: (props) => <Certification {...props} />,
+    },
+    {
+      widgetName: "Android",
+      widgetFunc: (props) => <Android {...props} />,
+    },
+    {
+      widgetName: "AndroidGameEngineTools",
+      widgetFunc: (props) => <AndroidGameEngineTools {...props} />,
+    },
+    {
+      widgetName: "IOS",
+      widgetFunc: (props) => <IOS {...props} />,
+    },
+    {
+      widgetName: "CrossPlatform",
+      widgetFunc: (props) => <CrossPlatformMobile {...props} />,
+    },
+    {
+      widgetName: "MSWindowsMessage",
+      widgetFunc: (props) => <MicrosoftWindowsGameEngineOptions {...props} />,
+    },
+    {
+      widgetName: "MacOS",
+      widgetFunc: (props) => <MacOS {...props} />,
+    },
+    {
+      widgetName: "ReturnStep",
+      widgetFunc: (props) => <ReturnStep {...props} />,
     },
     {
       widgetName: "javascriptLinks",

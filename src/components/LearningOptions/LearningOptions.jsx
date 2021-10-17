@@ -10,7 +10,7 @@ const LearningOptions = (props) => {
       id: 1,
     },
     { text: "Mobile Developer", handler: props.actionProvider.Platform , id: 2 },
-    { text: "Game Developer", handler: props.actionProvider.handleJavascriptList , id: 3 },
+    { text: "Game Developer", handler: props.actionProvider.Certification , id: 3 },
   ];
   
   const optionsMarkup = options.map((option) => (
