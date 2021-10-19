@@ -5,11 +5,11 @@ import "./LearningOptions.css";
 const LearningOptions = (props) => {
   const options = [
     {
-      text: "Web Developer ",
-      handler: props.actionProvider.webDevOptionsOne,
+      text: "Mobile Developer ",
+      handler: props.actionProvider.Platform,
       id: 1,
     },
-    { text: "Mobile Developer", handler: props.actionProvider.Platform , id: 2 },
+    { text: "Web Developer", handler: props.actionProvider.webDevOptionsOne , id: 2 },
     { text: "Game Developer", handler: props.actionProvider.handleJavascriptList , id: 3 },
   ];
   
