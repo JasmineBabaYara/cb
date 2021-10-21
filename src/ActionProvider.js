@@ -31,11 +31,11 @@ class ActionProvider {
     this.updateChatbotState(message);
   };
 
-  webDevOptionsOne = () => {
+  WebDevField = () => {
     const message = this.createChatBotMessage(
       "Choose one of the following skills...",
       {
-        widget: "WebDevOptionsOne",
+        widget: "WebDevField",
       }
     );
 

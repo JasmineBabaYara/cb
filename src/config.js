@@ -1,6 +1,6 @@
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
-import WebDevOptionsOne from "./components/LearningOptions/webDevOptionsOne";
+import WebDevField from "./components/LearningOptions/webDevOptions.jsx";
 import {
   Platform,
   CrossFramework,
@@ -44,8 +44,8 @@ const config = {
       widgetFunc: (props) => <LearningOptions {...props} />,
     },
     {
-      widgetName: "WebDevOptionsOne",
-      widgetFunc: (props) => <WebDevOptionsOne {...props} />,
+      widgetName: "WebDevField",
+      widgetFunc: (props) => <WebDevField {...props} />,
     },
     {
       widgetName: "Platform",

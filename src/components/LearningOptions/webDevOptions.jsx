@@ -2,7 +2,7 @@ import React from "react";
 
 import "./LearningOptions.css";
 
-const WebDevOptionsOne = (props) => {
+const WebDevField = (props) => {
   const options = [
     {
       text: "Frontend",
@@ -32,4 +32,4 @@ const WebDevOptionsOne = (props) => {
   return <div className="learning-options-container">{optionsMarkup}</div>;
 };
 
-export default WebDevOptionsOne;
+export default WebDevField;
