@@ -6,17 +6,17 @@ const WebDevOptionsOne = (props) => {
   const options = [
     {
       text: "Frontend",
-      handler: props.actionProvider.handleBoolYes,
+      handler: props.actionProvider.noJobAvailable,
       id: 1,
     },
     {
       text: "Backend",
-      handler: props.actionProvider.handleBoolNo,
+      handler: props.actionProvider.noJobAvailable,
       id: 2,
     },
     {
       text: "Fullstack",
-      handler: props.actionProvider.handleBoolNo,
+      handler: props.actionProvider.noJobAvailable,
       id: 3,
     },
   ];

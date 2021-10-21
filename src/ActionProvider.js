@@ -42,33 +42,73 @@ class ActionProvider {
     this.updateChatbotState(message);
   };
 
+  noJobAvailable = () => {
+    const message = this.createChatBotMessage(
+      "There are no jobs available at the moment. Please check back later."
+    );
+
+    this.updateChatbotState(message);
+  };
+
   Platform = () => {
-    const message = this.createChatBotMessage(
-      "Choose preferred platform.",
-      {
-        widget: "Platform",
-      }
-    );
+    const message = this.createChatBotMessage("Choose preferred platform.", {
+      widget: "Platform",
+    });
 
     this.updateChatbotState(message);
   };
 
-  Framework = () => {
-    const message = this.createChatBotMessage(
-      "Choose your preferred option.",
-      {
-        widget: "Framework",
-      }
-    );
+  CrossFramework = () => {
+    const message = this.createChatBotMessage("Choose your preferred option.", {
+      widget: "CrossFramework",
+    });
 
     this.updateChatbotState(message);
   };
 
-  Experience = () => {
+  NativeFramework = () => {
+    const message = this.createChatBotMessage("Choose your preferred option.", {
+      widget: "NativeFramework",
+    });
+
+    this.updateChatbotState(message);
+  };
+
+  ReactExperience = () => {
     const message = this.createChatBotMessage(
       "How many Years of Experience do you have?",
       {
-        widget: "Experience",
+        widget: "ReactExperience",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+  FlutterExperience = () => {
+    const message = this.createChatBotMessage(
+      "How many Years of Experience do you have?",
+      {
+        widget: "FlutterExperience",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+  AndroidExperience = () => {
+    const message = this.createChatBotMessage(
+      "How many Years of Experience do you have?",
+      {
+        widget: "AndroidExperience",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+  IOSExperience = () => {
+    const message = this.createChatBotMessage(
+      "How many Years of Experience do you have?",
+      {
+        widget: "IOSExperience",
       }
     );
 
@@ -256,12 +296,56 @@ class ActionProvider {
     this.updateChatbotState(message);
   }
 
+  CrossReactRequirement = () => {
+    const message = this.createChatBotMessage(
+      "'Nobel Cyber Inc.' wants an employee like you but requires these skills - Javascript, React Native, Api, SQL, OOP, unit testing, Git. Do you have all these skills",
+      {
+        widget: "Requirement",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
+  CrossFlutterRequirement = () => {
+    const message = this.createChatBotMessage(
+      "'Nobel Cyber Inc.' wants an employee like you but requires these skills - Dart, Flutter, Api, SQL, OOP, unit testing, Git. Do you have all these skills",
+      {
+        widget: "Requirement",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
+  NativeAndroidRequirement = () => {
+    const message = this.createChatBotMessage(
+      "'Droid Ideal Technologies' wants an employee like you but requires these skills - Java, Kotlin, linux, Api, SQL, OOP, Unit testing, Git. Do you have all these skills",
+      {
+        widget: "Requirement",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
+  NativeIOSRequirement = () => {
+    const message = this.createChatBotMessage(
+      "'Kava tech Ltd.' wants an employee like you but requires these skills - Swift, linux, Api, SQL, OOP, Unit testing, Git. Do you have all these skills",
+      {
+        widget: "Requirement",
+      }
+    );
+
+    this.updateChatbotState(message);
+  };
+
   handleBoolYes = () => {
     const message = this.createChatBotMessage(
-      "Great! Follow this link to reach these companies: www.example.com"
-      // {
-      //   widget: "Bool",
-      // },
+      "Great! Reach them on 030 000 000, submit your cv to them and prepare for an interview from them.",
+      {
+        widget: "javascriptLinks",
+      },
     );
 
     this.updateChatbotState(message);
@@ -269,7 +353,8 @@ class ActionProvider {
 
   handleBoolNo = () => {
     const message = this.createChatBotMessage(
-      "I'm Sorry. Please take sometime, get familiar with all these skills and come back when you're done. Thank You."
+      "I'm Sorry. Please take sometime, get familiar with all these skills and come back when you're done. Thank You. These are links to udemy course to guide you."
+      // https://www.udemy.com/courses/search/?src=ukw&q=mysql
       // {
       //   widget: "Bool",
       // },
