@@ -342,10 +342,10 @@ class ActionProvider {
 
   handleBoolYes = () => {
     const message = this.createChatBotMessage(
-      "Great! Reach them on 030 000 000, submit your cv to them and prepare for an interview from them.",
-      {
-        widget: "javascriptLinks",
-      },
+      "Great! Reach them on 030 000 000, submit your cv to them and prepare for an interview from them."
+      // {
+      //   widget: "javascriptLinks",
+      // },
     );
 
     this.updateChatbotState(message);
