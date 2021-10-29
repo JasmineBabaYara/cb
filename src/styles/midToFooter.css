@@ -1,0 +1,10 @@
+.midToFooter {
+  background-color: orange;
+}
+
+.ai-chatbot-button {
+  background-color: steelblue;
+  width: 50px;
+  height: 50px;
+  border-radius: 1000px; /* or 50%*/
+}
