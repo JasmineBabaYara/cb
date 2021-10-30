@@ -3,6 +3,7 @@ import './App.css'
 import Courses from "./components/template/Courses";
 import Nav from "./components/template/Nav";
 
+
 function App() {
   return (
     <>
