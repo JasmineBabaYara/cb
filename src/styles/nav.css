@@ -1,3 +1,7 @@
+/* 
+    set to iphone x dimensions 
+    media queries will be added soon
+*/
 .nav-wrapper {
   background-color: #fff;
   height: 50px;
@@ -13,6 +17,7 @@
 .nav-title {
   margin: 0;
   font-weight: bold;
+  font-size: 1.5rem;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -20,11 +25,37 @@
   padding-left: 10px;
 }
 
+.settings-icon {
+  position: absolute;
+  top: 30%;
+  padding-left: 18rem;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
 .nav-section {
+  padding: 0 auto;
+  display: block;
 }
 
 .greeting-message {
+  margin: 8px 10px;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .username {
+  margin: 5px 5px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.course-header {
+  background-color: grey;
+  width: 40%;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 1rem;
+  margin-left: 13rem;
+  padding: 3px;
 }
