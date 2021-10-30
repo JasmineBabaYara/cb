@@ -1,8 +1,5 @@
 import React from "react";
 
-// Import declarative routing
-import { Link } from "react-router-dom";
-
 //Import custom styling
 import "../../styles/nav.css";
 
@@ -13,9 +10,7 @@ export default function Nav() {
       <div className="nav-wrapper">
         <p className="nav-title">JOB COACH</p>
         <div className="settings-icon">
-          <Link to="SettingsPage">
             <button>Settings</button>
-          </Link>
         </div>
       </div>
       <section className="nav-section">

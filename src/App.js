@@ -1,27 +1,20 @@
 import React from "react";
 import "./App.css";
+import Welcome from "./components/welcomePage";
 
 //Import Components
-import Courses from "./components/template/Courses";
-import MidToFooter from "./components/template/MidToFooter";
-import Nav from "./components/template/Nav";
-import SettingsPage from "./components/settingsTemplate/SettingsPage";
-
-// Import declarative routing components
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+// import Courses from "./components/template/Courses";
+// import MidToFooter from "./components/template/midToFooter";
+// import Nav from "./components/template/Nav";
 
 
 function App() {
-  return (
-    <Router>
-      <Nav />
+  return (<>
+      {/* <Nav />
       <Courses />
-      <MidToFooter />
-      <Switch>
-        <Route path="/settingspage" component={SettingsPage} />
-      </Switch>
-    </Router>
+      <MidToFooter /> */}
+      <Welcome />
+      </>
   );
 }
 
