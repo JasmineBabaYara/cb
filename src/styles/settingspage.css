@@ -1,0 +1,141 @@
+/* 
+    set to iphone x dimensions 
+    media queries will be added soon
+*/
+.settings {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.setting-img {
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    margin: 15px 8.5rem;
+}
+
+.account-title {
+    text-align: center;
+    margin: 15px;
+    font-size: 17px;
+}
+
+.account-info {
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.name-div {
+    display: flex;
+    border: 1px solid grey;
+    margin: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.name {
+    margin: 7px 8px ;
+    padding: 7px;
+}
+
+.name-btn {
+    margin-left: 10.73rem;
+    padding: 4px;
+    padding-right: 5px;
+}
+
+.contact-div {
+    display: flex;
+    border: 1px solid grey;
+    margin: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact {
+    margin: 7px 8px;
+    padding: 7px;
+}
+
+.contact-btn {
+    margin-left: 11.78rem;
+    padding: 4px;
+    padding-right: 5px;
+}
+
+.category-div {
+    display: flex;
+    border: 1px solid grey;
+    margin: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.category {
+    margin: 7px 8px;
+    padding: 7px;
+}
+
+.category-btn {
+    margin-left: 9.94rem;
+    padding: 4px;
+    padding-right: 5px;
+}
+
+.notifications-div {
+    margin: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+}
+
+.notifications {
+    margin: 7px 8px;
+    padding: 7px;
+}
+
+.notifications-btn {
+    margin-left: 17rem;
+    width: 75px;
+    border-radius: 1.5rem;
+    padding: 0.2rem;
+    position: absolute;
+    top: 139%;
+}
+
+.faqs {
+    margin: 10px 28px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.feedback {
+    margin: 13px 28px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.about {
+    margin: 13px 28px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.reset {
+    margin-left: 15rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.logout-btn {
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    margin: 10px 15px;
+    padding: 1rem 8.5rem;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
