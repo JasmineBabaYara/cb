@@ -7,7 +7,7 @@ import "swiper/swiper.scss";
 import "swiper/components/effect-coverflow/effect-coverflow.scss";
 import "swiper/components/pagination/pagination.scss";
 // Import Custom css
-import "../../styles/courses.css"
+import "../../styles/homePage/courses.css"
 // Import Swiper core and required modules
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 

@@ -1,10 +1,10 @@
-# Login & sign up page
+# Login & sign up page - done
 
 features
 sign in with google, microsoft
 or register / sign up
 
-# sign up page
+# sign up page - done
 
 first name
 last name

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../styles/settingspage.css";
+import "../../styles/settings/settingspage.css";
 
 
 // settings page
