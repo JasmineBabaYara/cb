@@ -79,7 +79,7 @@ function CourseCard(props) {
       <h1 className="course-title">{props.courseTitle}</h1>
     </div>
   )
-}
+};
 
 
-export default Courses
+export default Courses;

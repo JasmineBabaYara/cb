@@ -1,21 +1,27 @@
 import React from "react";
-import "./App.css";
+import { Route } from "react-router";
+// import "./App.css";
+
+//Compnents of pages to be rendered
+import Welcome from "./components/welcomePage";
+import Login from "./components/loginAndSign-upTemplates/login";
+import SignUp from "./components/loginAndSign-upTemplates/signUp";
+import HomePage from "./components/template/HomePage";
 import SettingsPage from "./components/settingsTemplate/settingsPage";
 
 
-//Import Components
-// import Courses from "./components/template/Courses";
-// import MidToFooter from "./components/template/midToFooter";
-// import Nav from "./components/template/Nav";
+
 
 
 function App() {
-  return (<>
-      {/* <Nav />
-      <Courses />
-      <MidToFooter /> */}
-      <SettingsPage />
-      </>
+  return (
+    <>
+    <Route path="/home" component={HomePage}/> 
+    <Route path="/login" component={Login} />
+    <Route path="/sign-up" component={SignUp} />
+    <Route path="/settings" component={SettingsPage} />
+    <Route path="/" exact component={Welcome}/>
+    </>
   );
 }
 

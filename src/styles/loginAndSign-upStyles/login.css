@@ -34,16 +34,17 @@
   width: 300px;
 }
 
-.input {
+.input-i {
   outline: none;
   margin: 20px 0 0 0;
   height: 50px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   padding: 10px 10px;
   border: 0;
-  border-bottom: 5px solid rgb(209, 202, 202);
-  border-radius: 6px;
+  padding-left: 24px;
+  width: 260px;
+  border-radius: 24px;
 }
 
 .sign-in-div {
