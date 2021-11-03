@@ -1,6 +1,6 @@
 import React from "react";
 import { Route } from "react-router";
-// import "./App.css";
+import "./App.css";
 
 //Compnents of pages to be rendered
 import Welcome from "./components/welcomePage";

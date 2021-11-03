@@ -2,6 +2,16 @@
     set to iphone x dimensions 
     media queries will be added soon
 */
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(+100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .settings-container {
   align-items: center;
   background-color: white;
@@ -13,6 +23,8 @@
   width: 40px;
   height: 40px;
   padding-top: 24px;
+  color: #000;
+  text-decoration: none;
 }
 
 .s-img-div {
@@ -22,9 +34,8 @@
 }
 
 .setting-img {
-  border: 1px solid grey;
+  border: 3px solid grey;
   border-radius: 50%;
-  background-color: rgb(187, 185, 185);
   width: 100px;
   height: 100px;
 }
@@ -57,6 +68,7 @@
   margin-top: 12px;
   padding-left: 6px;
   padding-right: 6px;
+  animation: 1s ease-out -0.2s 1 slideInFromRight;
 }
 
 input {
@@ -87,6 +99,7 @@ input {
 
 .optional-settings {
   padding-top: 12px;
+  animation: 1s ease-out -0.2s 1 slideInFromRight;
 }
 
 .notifications-div {
@@ -137,6 +150,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  animation: 1s ease-out -0.2s 1 slideInFromRight;
 }
 
 .reset {
@@ -158,7 +172,6 @@ input {
   display: flex;
   justify-content: center;
   margin-top: 28px;
-  
 }
 
 .logout-btn {

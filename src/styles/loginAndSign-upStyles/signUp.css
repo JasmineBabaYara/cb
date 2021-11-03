@@ -1,3 +1,16 @@
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.create-account-container {
+  height: 100vh;
+}
+
 .create-account-div {
   display: flex;
   background-color: rgb(84, 240, 84);
@@ -17,6 +30,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
+  animation: 1s ease-out -0.2s 1 slideInFromRight;
 }
 
 .form-input {
@@ -54,6 +68,7 @@ input {
 }
 
 footer {
+  animation: 1s ease-out -0.2s 1 slideInFromRight;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,22 +81,23 @@ footer {
   outline: none;
   border-radius: 50px;
   background-color: orange;
-  margin-top: 30px;
   align-items: center;
   font-size: 16px;
   font-weight: bold;
 }
 
 .log-in-msg {
+  animation: 1s ease-out -0.2s 1 slideInFromRight;
   display: flex;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   align-items: center;
-  position: absolute;
-  bottom: 16px;
+  margin-top: 230px;
 }
 
 .log-in {
   color: rgb(233, 113, 58);
   padding-left: 10px;
+  padding-top: 16px;
+  text-decoration: none;
 }
