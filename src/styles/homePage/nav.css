@@ -1,0 +1,66 @@
+/* 
+    set to iphone x dimensions 
+    media queries will be added soon
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-wrapper {
+  background-color: rgb(151, 214, 91);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.settings-btn {
+  background-color: rgb(151, 214, 91);
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 16px;
+  margin-right: 12px;
+}
+
+.nav-title {
+  padding-left: 12px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.nav-section {
+  padding-left: 12px;
+}
+
+.greeting-message {
+  font-size: 18px;
+  padding-top: 24px;
+}
+
+.username {
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+.course-header-container {
+  display: flex;
+  justify-content: end;
+}
+
+.course-header {
+  background-color: purple;
+  width: 140px;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px 0 0 8px;
+  padding: 10px;
+  align-items: center;
+  font-weight: bold;
+}
