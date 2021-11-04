@@ -14,9 +14,8 @@ class Welcome extends Component {
                         lorem ipsum a lor emu ipsum lips sldul  shf s as df ha faenfd thsktj sfja hfna feoapo a sjhf jsosm jf fhgjksjs ahsd a fajf? ahd fa! A df ahd afdsjfa. Ahf afaAdf fjhajf. 
                     </p>
                     <div className="btn-div">
-                        <Link to="/login"><button className="wbtn w-sign-in-btn">Sign in</button></Link>
-                        <Link to="/sign-up">
-                        <button className="wbtn w-sign-up-btn">Sign up</button></Link>
+                        <Link to="/home">
+                        <button className="wbtn w-sign-up-btn">Sign In With Google</button></Link>
                     </div>
                 </div>
             </div>

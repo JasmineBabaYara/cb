@@ -6,7 +6,11 @@
 
 .welcome-container {
   background-color: white;
-  height: 100vh;
+  height: 50vh;
+  margin-top: 30%;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @keyframes slideInFromBottom {
@@ -20,24 +24,27 @@
 
 .welcome-div {
   animation: 1s ease-out 0s 1 slideInFromBottom;
-  background-color: orange;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  width: 100vw;
-  height: 320px;
   border-radius: 30px 30px 0 0;
   overflow: hidden;
   padding: 40px 10px 20px 20px;
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border: 1px solid rgba(7, 175, 247, 0.136);
 }
 
 .welcome-main {
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 .welcome-message {
   font-size: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 0px;
 }
 
 .btn-div {
@@ -49,7 +56,7 @@
 
 .wbtn {
   height: 60px;
-  width: 140px;
+  padding: 0 20px;
   outline: none;
   border-radius: 28px;
   border: none;
@@ -59,11 +66,6 @@
 }
 
 .w-sign-up-btn {
-  background-color: white;
-  color: black;
-}
-
-.w-sign-in-btn {
   background-color: black;
   color: white;
 }
