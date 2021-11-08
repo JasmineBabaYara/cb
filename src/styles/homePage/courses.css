@@ -8,34 +8,51 @@
   background-position: center;
   background-size: cover;
   width: 300px;
-  height: 300px;
+  height: 100px;
+  background-color: rgb(214, 212, 212);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
 }
 
-.swiper-slide img {
+img {
+  width: 100px;
+  height: 80px;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+.swiper-slide-text {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 0 18px;
+  color:rgb(70, 68, 68);
+}
+
+/* .swiper-slide img {
   display: block;
   width: 100%;
-}
+} */
 
 /* ============= Animation background ========= */
 
-.course-slide {
-  background: linear-gradient(132deg, #fc415a, #591bc5, #212335);
-  background-size: 400% 400%;
+/* .course-slide {
+  background: linear-gradient(rgb(167, 203, 238), rgb(110, 174, 235), rgb(53, 143, 228));
   animation: Gradient 15s ease infinite;
   position: relative;
   height: 100%;
   width: 100%;
   overflow: hidden;
   padding: 0;
-  border-radius: 50px;
+  border-radius: 18px;
 }
 
 .course-title {
   text-align: center;
-  padding-top: 35%;
-  color: #fff;
-}
-
+  padding-top: 10%;
+  color: rgb(255, 255, 255);
+}  */
+/* 
 .cube {
   position: absolute;
   top: 20vh;
@@ -74,10 +91,10 @@
   animation-delay: 10s;
   left: 50vw;
   top: 10vh;
-}
+} */
 
 /* Animate Background*/
-@keyframes Gradient {
+/* @keyframes Gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -97,7 +114,7 @@
     transform: scale(20) rotate(960deg) translate(50%, -50%);
     opacity: 0;
   }
-}
+}  */
 
 .swiper-container {
   margin-top: 10px;
