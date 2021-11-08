@@ -70,7 +70,7 @@ class Courses extends Component {
 
 function CourseCard(props) {
   return (
-    <div class="course-slide">
+    <div className="course-slide">
       <div className="cube"></div>
       <div className="cube"></div>
       <div className="cube"></div>
