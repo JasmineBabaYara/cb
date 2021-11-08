@@ -9,6 +9,24 @@
   background-size: cover;
   width: 300px;
   height: 100px;
+  background-color: rgb(214, 212, 212);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: 80px;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+.swiper-slide-text {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 0 18px;
+  color:rgb(70, 68, 68);
 }
 
 /* .swiper-slide img {
@@ -18,7 +36,7 @@
 
 /* ============= Animation background ========= */
 
-.course-slide {
+/* .course-slide {
   background: linear-gradient(rgb(167, 203, 238), rgb(110, 174, 235), rgb(53, 143, 228));
   animation: Gradient 15s ease infinite;
   position: relative;
@@ -33,7 +51,7 @@
   text-align: center;
   padding-top: 10%;
   color: rgb(255, 255, 255);
-} 
+}  */
 /* 
 .cube {
   position: absolute;

@@ -6,6 +6,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
 import "swiper/components/effect-coverflow/effect-coverflow.scss";
 import "swiper/components/pagination/pagination.scss";
+
+// imgage imports 
+import java from "../../styles/img/java.png";
+import python from "../../styles/img/python.png";
+import flutter from "../../styles/img/Flutter-logo.png";
+import javascript from "../../styles/img/javascript.png";
+import c from "../../styles/img/c.png";
+import ruby from "../../styles/img/ruby.png";
+
 // Import Custom css
 import "../../styles/homePage/courses.css"
 // Import Swiper core and required modules
@@ -35,32 +44,24 @@ class Courses extends Component {
           className="mySwiper"
         >
           <SwiperSlide>
-            <CourseCard courseTitle="Java" />
+            <img src={java} alt="java" /><p className="swiper-slide-text">Java</p>
           </SwiperSlide>
           <SwiperSlide>
-            <CourseCard courseTitle="Flutter" />
+            <img src={python} alt="python" /><p className="swiper-slide-text">Python</p>
           </SwiperSlide>
           <SwiperSlide>
-            <CourseCard courseTitle="Python" />
+            <img src={flutter} alt="Flutter" /><p className="swiper-slide-text">Flutter</p>
           </SwiperSlide>
           <SwiperSlide>
-            <CourseCard courseTitle="C++" />
+            <img src={javascript} alt="Javascript" /><p className="swiper-slide-text">javascript</p>
           </SwiperSlide>
           <SwiperSlide>
-            <CourseCard courseTitle="Kotlin" />
+            <img src={c} alt="C" /><p className="swiper-slide-text">C language</p>
           </SwiperSlide>
           <SwiperSlide>
-            <CourseCard courseTitle="GO" />
+            <img src={ruby} alt="Ruby" /><p className="swiper-slide-text">Ruby</p>
           </SwiperSlide>
-          <SwiperSlide>
-            <CourseCard courseTitle="Rust" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <CourseCard courseTitle="C" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <CourseCard courseTitle="Swift" />
-          </SwiperSlide>
+          
         </Swiper>
       </div>
     );
