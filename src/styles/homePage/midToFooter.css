@@ -39,7 +39,7 @@
 }
 
 .accordion-button {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   letter-spacing: 0.3px;
   color: #000;
@@ -59,6 +59,12 @@
   z-index: 100;
 }
 
+.bold-p-tag {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-top: 6px;
+}
 .chat-with-ai-wrapper {
   display: flex;
   width: 100%;
