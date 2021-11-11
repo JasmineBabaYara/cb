@@ -3,7 +3,7 @@
     media queries will be added soon
 */
 .midToFooter {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border-radius: 26px 26px 0 0;
   min-height: 56vh;
   height: max-content;
@@ -11,13 +11,18 @@
   margin-top: 32px;
   padding: 20px;
   width: 100%;
-  border: 1px solid rgb(23, 29, 36);
+  border: 1px solid rgb(53, 152, 245);
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(53, 152, 245, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
 }
 
 .midToFooter-title {
   padding: 10px 0 12px 8px;
   font-size: 20px;
-  letter-spacing: .7px;
+  letter-spacing: 0.7px;
   font-weight: bold;
   color: rgb(94, 93, 93);
 }
@@ -29,14 +34,14 @@
   padding-top: 12px;
 }
 
-.accordion-body { 
+.accordion-body {
   font-size: 18px;
 }
 
 .accordion-button {
   font-size: 24px;
   font-weight: bold;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   color: #000;
 }
 
@@ -59,4 +64,20 @@
   font-weight: bold;
   line-height: 24px;
   margin-top: 6px;
+}
+.chat-with-ai-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.chat-with-ai-btn {
+  border: 0;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(53, 152, 245, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  padding: 10px;
+  margin: 15px;
+  border-radius: 50px;
 }
