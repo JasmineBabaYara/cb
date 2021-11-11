@@ -8,6 +8,9 @@ class midToFooter extends Component {
   render() {
     return (
       <>
+        <div className="chat-with-ai-wrapper">
+          <button class="chat-with-ai-btn">Chat With Our Intelligent AI Chatbot kit</button>
+        </div>
         <div className="midToFooter">
           <div className="title-container"><p className="midToFooter-title">IMMEDIATE OFFERS</p></div>
           <Accordion defaultActiveKey="0">
@@ -60,7 +63,7 @@ class midToFooter extends Component {
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
-          <button className="cb-btn">Bot</button>
+          {/* <button className="cb-btn">Bot</button> */}
         </div>
       </>
     );

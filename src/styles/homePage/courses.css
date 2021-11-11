@@ -9,10 +9,16 @@
   background-size: cover;
   width: 300px;
   height: 100px;
-  background-color: rgb(214, 212, 212);
+  /* background-color: rgb(214, 212, 212); */
   border-radius: 18px;
   display: flex;
   align-items: center;
+  margin: 20px 0;
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
 }
 
 img {
@@ -27,6 +33,17 @@ img {
   font-weight: bold;
   margin: 0 0 0 18px;
   color:rgb(70, 68, 68);
+}
+
+.course-card {
+  /* background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .swiper-slide img {
@@ -116,6 +133,7 @@ img {
   }
 }  */
 
-.swiper-container {
-  margin-top: 10px;
+
+.swiper-wrapper {
+  margin: 15px;
 }
