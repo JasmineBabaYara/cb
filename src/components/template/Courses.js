@@ -44,24 +44,20 @@ class Courses extends Component {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={java} alt="java" /><p className="swiper-slide-text">Java</p>
+            <CourseCard img={java} courseTitle="Java" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={python} alt="python" /><p className="swiper-slide-text">Python</p>
+            <CourseCard img={python} courseTitle="Python" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={flutter} alt="Flutter" /><p className="swiper-slide-text">Flutter</p>
+            <CourseCard img={flutter} courseTitle="Flutter" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={javascript} alt="Javascript" /><p className="swiper-slide-text">javascript</p>
+            <CourseCard img={javascript} courseTitle="Javascript" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={c} alt="C" /><p className="swiper-slide-text">C language</p>
+            <CourseCard img={ruby} courseTitle="Ruby" />
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={ruby} alt="Ruby" /><p className="swiper-slide-text">Ruby</p>
-          </SwiperSlide>
-          
         </Swiper>
       </div>
     );
@@ -71,14 +67,17 @@ class Courses extends Component {
 
 function CourseCard(props) {
   return (
-    <div className="course-slide">
-      <div className="cube"></div>
-      <div className="cube"></div>
-      <div className="cube"></div>
-      <div className="cube"></div>
-      <div className="cube"></div>
-      <h1 className="course-title">{props.courseTitle}</h1>
+    <div className="course-card">
+      <img src={props.img} alt={props.courseTitle} /><p className="swiper-slide-text">{props.courseTitle}</p>
     </div>
+    // <div className="course-slide">
+    //   <div className="cube"></div>
+    //   <div className="cube"></div>
+    //   <div className="cube"></div>
+    //   <div className="cube"></div>
+    //   <div className="cube"></div>
+    //   {/* <h1 className="course-title">{props.courseTitle}</h1> */}
+    // </div>
   )
 };
 
