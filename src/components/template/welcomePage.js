@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import firebase from "../Firebase/firebase";
-import "../styles/loginAndSign-upStyles/welcomePage.css";
+import firebase from "../../Firebase/firebase";
+import "../../styles/welcome/welcomePage.css";
 
 // Welcome page, contains welcome message and sign in and sign out pages
 

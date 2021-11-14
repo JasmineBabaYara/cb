@@ -36,7 +36,9 @@ export default class SettingsPage extends Component {
           </Link>
         </div>
         <div className="s-img-div">
-          <div className="setting-img"></div>
+          <div className="setting-img" style={{ backgroundImage: `url(${this.props.profileImg})` }}>
+            {/* <img src={this.props.profileImg} alt="profile" /> */}
+          </div>
         </div>
         <p className="account-title">ACCOUNT SETTINGS</p>
         <div className="settings-section">

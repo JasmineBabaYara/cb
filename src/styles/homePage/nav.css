@@ -39,7 +39,6 @@
   margin-bottom: 14px;
 }
 
-
 @keyframes slideInFromTop {
   0% {
     transform: translateY(-100%);
@@ -48,7 +47,6 @@
     transform: translateY(0);
   }
 }
-
 
 .nav-title-container {
   display: flex;
@@ -79,9 +77,9 @@
 .greeting-message {
   font-size: 18px;
   padding-top: 24px;
-  font-weight:bold;
+  font-weight: bold;
   letter-spacing: 0.8px;
-  color:rgb(133, 133, 133);
+  color: rgb(133, 133, 133);
   margin: 0 0 0 10px;
 }
 
@@ -91,7 +89,10 @@
   color: rgb(47, 47, 47);
   padding-bottom: 10px;
   margin: 0 0 24px 10px;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
+  animation: 2s ease-out 0s 1 slideInFromLeft;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
 }
 
 .course-header-container {

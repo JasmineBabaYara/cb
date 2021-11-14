@@ -7,6 +7,15 @@
   }
 }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .settings-container {
   align-items: center;
   background-color: white;

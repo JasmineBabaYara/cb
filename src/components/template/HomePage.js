@@ -10,11 +10,12 @@ import MidToFooter from "./midToFooter";
 
 class HomePage extends Component {
     render() {
+        // console.log(this.props.username, "this.props.username")
         return (
             <div className="homepage-container">
-            <Nav />
-            <Courses />
-            <MidToFooter />
+                <Nav username={this.props.username} />
+                <Courses />
+                <MidToFooter />
             </div>
         )
     };
