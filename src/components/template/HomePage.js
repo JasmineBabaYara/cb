@@ -5,19 +5,23 @@ import { Component } from 'react';
 import Nav from "./Nav";
 import Courses from './Courses';
 import MidToFooter from "./midToFooter";
+import { Navigate } from 'react-router';
 
 // home page with nav, courses and midToFooter components
 
 class HomePage extends Component {
     render() {
-        // console.log(this.props.username, "this.props.username")
-        return (
-            <div className="homepage-container">
-                <Nav username={this.props.username} />
-                <Courses />
-                <MidToFooter />
-            </div>
-        )
+        if (this.props.IsSignedIn) {
+            return (
+                <div className="homepage-container">
+                    <Nav username={this.props.username} />
+                    <Courses />
+                    <MidToFooter />
+                </div>
+            )
+        } else {
+            return <Navigate to="/" />
+        }
     };
 }
 

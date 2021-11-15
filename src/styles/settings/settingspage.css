@@ -94,13 +94,13 @@ input {
   border-radius: 16px;
   padding: 10px;
   height: 30px;
-  background-color: rgb(53, 152, 245);
+  /* background-color: rgb(53, 152, 245); */
   font-size: 16px;
   font-weight: bold;
   display: flex;
   width: 62px;
   align-items: center;
-  color: rgb(214, 209, 209);
+  color: rgb(101, 101, 101);
 }
 
 .optional-settings {
